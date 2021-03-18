@@ -101,6 +101,19 @@ body.fotos #navegacao a#fotos{
     margin: 0 15px 20px -750px;
 }
 
+/*********************
+*Layout de 2 colunas*/
+#duas-colunas #primario {
+	width: 555px;
+}
+
+/********************
+*Layout de 1 coluna*/
+#uma-coluna #primario {
+	width: 750px;
+	margin: 0 0 20px 0;
+}
+
 /*******
 *Caixa*/
 .caixa{
@@ -120,6 +133,11 @@ h2{
     background: #294c71;
     color: #fff;
     padding: 5px;
+}
+
+.leia-mais{
+    text-decoration: none;
+    color: #b10333;
 }
 
 /****************
@@ -144,8 +162,8 @@ h2{
     border-bottom: none;
 }
 
-/************************
-*Formatando formulários*/
+/*************
+*Formulários*/
 label{
     display: block;
     cursor: pointer;
@@ -167,6 +185,77 @@ input[type='submit']{
     border: 2px solid #870529;
     padding: 5px;
 }
+
+/*********
+*Imagens*/
+img.imagem-principal{
+    margin-top: 5px;
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+
+/************
+*Cabeçalhos*/
+.destaque h3{
+    padding: 5px;
+    color: #fff;
+    background: #b10333;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.entrevista h3{
+    padding: 5px;
+    color: #000;
+    background: #b10333;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+/*******************
+*Lista de notícias*/
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li#ultima-noticia{
+    padding: 2px;
+    border-bottom: none;
+    height: 65px;
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.9em;
+    padding-top: 3px;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+    font-size: 0.8em;
+    color: #000;
+}
+
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+/**************
+*Página Brasil*/
 
 /********
 *rodapé*/ 

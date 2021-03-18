@@ -5,37 +5,154 @@
         <meta charset="UTF-8">
         <link href="estilos.css" rel="stylesheet" type="text/css">
     </head>
-    <body class='brasil'>
-        <div id='container'>
-            <div>
-                <div id='topo'>
-                    <h1 class='logo'>Noticias Cidade</h1>
-                    <ul id='navegacao'>
-                        <li class='first'>
-                            <a id='home' href="home.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="brasil.html" id='brasil'>Brasil</a>
-                        </li>
-                        <li>
-                            <a href="internacional.html" id='internacional'>Internacional</a>
-                        </li>
-                        <li>
-                            <a href="economia.html" id='economia'>Economia</a>
-                        </li>
-                        <li>
-                            <a href="saude.html" id='saude'>Saúde</a>
-                        </li>
-                        <li>
-                            <a href="ciencia.html" id='ciencia'>Ciência</a>
-                        </li>                    
-                        <li>
-                            <a href="fotos.html" id='fotos'>Fotos</a>
-                        </li>
-                    </ul>
-                </div>
+    <body id='duas-colunas' class='brasil'>
+        <!--Início do container-->
+        <div id='container'> 
+            <!--Início do topo-->
+            <div id='topo'>
+                <h1 class='logo'>Noticias Cidade</h1>
+                <ul id='navegacao'>
+                    <li class='first'>
+                        <a id='home' href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="brasil.html" id='brasil'>Brasil</a>
+                    </li>
+                    <li>
+                        <a href="internacional.html" id='internacional'>Internacional</a>
+                    </li>
+                    <li>
+                        <a href="economia.html" id='economia'>Economia</a>
+                    </li>
+                    <li>
+                        <a href="saude.html" id='saude'>Saúde</a>
+                    </li>
+                    <li>
+                        <a href="ciencia.html" id='ciencia'>Ciência</a>
+                    </li>                    
+                    <li>
+                        <a href="fotos.html" id='fotos'>Fotos</a>
+                    </li>
+                </ul>
             </div>
+            <!--Fim do topo-->
+            <!--Início do conteúdo-->
+            <div id='conteudo'>
+                <!--Início do primário-->
+                <div id='primario'>
+                    <div class='caixa destaque'>
+                        <h2>Destaques</h2>
+                        <div class='caixa-conteudo'>
+                            <h3>Nova legislação</h3>
+                            <img src='../Imagens/taxi.jpg' class='imagem-principal'>
+                            <p>
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipiscing elit.
+                            </p>
+                            <a href="#" class='leia-mais'>Leia mais!</a>
+                        </div>
+                    </div>
+                    <div class='caixa'>
+                        <h2>Mundo</h2>
+                        <div class='caixa-conteudo'>
+                            <ul id='lista-noticias'>
+                                <li>
+                                    <a href="">
+                                        <img src='../Imagens/tecnologia.jpg' width="80">
+                                        <h3>Crise europeia</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit
+                                            amet, consectetur...
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src='../Imagens/tecnologia.jpg' width="80">
+                                        <h3>USA tenta novo acordo</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit
+                                            amet, consectetur...
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src='../Imagens/tecnologia.jpg' width="80">
+                                        <h3>Russia aprova lei</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit
+                                            amet, consectetur...
+                                        </p>
+                                    </a>
+                                </li>
+                                <li id='ultima-noticia'>
+                                    <a href="">
+                                        <img src='../Imagens/tecnologia.jpg' width="80">
+                                        <h3>Conflitos na Síria</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit
+                                            amet, consectetur...
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim do primário-->              
+                <!--Início da lateral-->
+                <div id='lateral'>
+                    <div class='caixa'>
+                        <h2>Entrevistas</h2>
+                        <div class='caixa-conteudo'>
+                            <ul>
+                                <li>
+                                    <a href="#">José Almeida</a>
+                                </li>
+                                <li>
+                                    <a href="#">Felipe Silva</a>
+                                </li>
+                                <li>
+                                    <a href="#">Renato Rodrigues</a>
+                                </li>
+                                <li>
+                                    <a href="#">Abelardo Silveira</a>
+                                </li>
+                                <li>
+                                    <a href="#">André Carlos</a>
+                                </li>
+                                <li>
+                                    <a href="#">Márcio Mello</a>
+                                </li>
+                                <li>
+                                    <a href="#">João Pedro</a>
+                                </li>
+                                <li>
+                                    <a href="#" id='ultimo'>Fernando Weiss</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class='caixa'>
+                        <h2>News</h2>
+                        <div class='caixa-conteudo'>
+                            <form>
+                                <div>
+                                    <label>E-mail:</label>
+                                    <input type='text' name='email' id='email'
+                                    placeholder='Digite seu E-mail:'>
+                                    <input type='submit' value='Cadastrar'>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div> 
+                <!--Fim da lateral-->
+            </div>
+            <!--Fim do conteúdo-->
         </div>
+        <!--Fim do container-->
         <!--Início do rodapé-->
         <div id='container-rodape'>
             <div id='rodape'>
